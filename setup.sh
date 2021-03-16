@@ -1,6 +1,7 @@
 #!/bin/bash
 
-echo "This is an edited setup.sh"
+echo "This is an edited setup.sh."
+
 echo "AIcrowd installer starting..."
 
 if ! nvidia-smi > /dev/null 2>&1; then
@@ -28,7 +29,7 @@ wget -q -nv https://drive.google.com/drive/folders/1fAd8g41CXbbm5DYI1SUZ3rwoZIYp
 unzip -q -d dataset train-v0.4.tar.gz
 
 echo "🗄 Preparing the validation dataset..."
-wget -q -nv https://drive.google.com/drive/folders/1fAd8g41CXbbm5DYI1SUZ3rwoZIYpK9hp
+wget -q -nv https://www.googleapis.com/drive/v3/files/1EMMjJ4FfnS8U9mRXahhEoSZs4mU13HS3?alt=media&key=AIzaSyDgJU1YPSdOxYeVvzV7lDLGmh8R6wD1q20
 unzip -q -d dataset val-v0.4.tar.gz
 
 echo "All set! 🎉🍻"
