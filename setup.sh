@@ -31,6 +31,9 @@ wget -q -nv https://drive.google.com/drive/folders/1fAd8g41CXbbm5DYI1SUZ3rwoZIYp
 #echo "🗄 Preparing the validation dataset..."
 #wget -q -nv https://drive.google.com/file/d/1EMMjJ4FfnS8U9mRXahhEoSZs4mU13HS3/view?usp=sharing
 #unzip -q -d set val-v0.4.tar.gz
-apt install p7zip-full
 
+echo "Installing 7-Zip..."
+echo " "
+apt install p7zip-full
+echo " "
 echo "All set! 🎉🍻"
