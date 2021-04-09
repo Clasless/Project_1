@@ -24,8 +24,8 @@ pip install detectron2==0.1.2 -f https://dl.fbaipublicfiles.com/detectron2/wheel
 
 
 #Datasets (This gets downloaded in "/content/foodChallenge/data")
-echo "🗄 Preparing the datasets..."
-wget -q -nv https://datasets.aicrowd.com/default/aicrowd-public-datasets/food-recognition-challenge/v0.4/train-v0.4.tar.gz
+#echo "🗄 Preparing the datasets..."
+#wget -q -nv https://datasets.aicrowd.com/default/aicrowd-public-datasets/food-recognition-challenge/v0.4/train-v0.4.tar.gz
 #unzip -q -d set train-v0.4.tar.gz
 
 echo "Installing 7-Zip..."
