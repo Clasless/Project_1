@@ -31,5 +31,6 @@ pip install detectron2==0.1.2 -f https://dl.fbaipublicfiles.com/detectron2/wheel
 #echo "🗄 Preparing the validation dataset..."
 #wget -q -nv https://drive.google.com/file/d/1EMMjJ4FfnS8U9mRXahhEoSZs4mU13HS3/view?usp=sharing
 #unzip -q -d set val-v0.4.tar.gz
+apt install p7zip-full
 
 echo "All set! 🎉🍻"
